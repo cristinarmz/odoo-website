@@ -1,21 +1,30 @@
 
+ 
+ .img-logo{
+  width:100px;
+ }
+ 
  /* Styling for the hero section */
 
-.p-try{
-  color:red;
+.h1{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
  .hero-section {
-    background-color: #007bff; /* Set the background color of the hero section */
     color: white; /* Set text color */
     padding: 100px 0; /* Add padding for content */
     position: relative;
   }
 
+  .img-hero{
+    width:400px;
+  }
+
   /* Styling for the content */
   .content {
-    text-align: center; /* Center align text */
-    position: relative;
+    text-align: left; 
     z-index: 1; /* Ensure content appears above the diagonal divider */
   }
 
