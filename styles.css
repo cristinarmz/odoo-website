@@ -1,0 +1,40 @@
+
+ /* Styling for the hero section */
+
+.p-try{
+  color:red;
+}
+
+ .hero-section {
+    background-color: #007bff; /* Set the background color of the hero section */
+    color: white; /* Set text color */
+    padding: 100px 0; /* Add padding for content */
+    position: relative;
+  }
+
+  /* Styling for the content */
+  .content {
+    text-align: center; /* Center align text */
+    position: relative;
+    z-index: 1; /* Ensure content appears above the diagonal divider */
+  }
+
+  /* Styling for the section below the hero section */
+  .bottom-section {
+    background-color: white; /* Set the background color of the section below */
+    padding: 100px 0; /* Add padding for content */
+  }
+
+  /* Styling for the diagonal divider */
+  .hero-section::after {
+    content: '';
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    width: 100%;
+    height: 70px; /* Adjust the height of the diagonal line */
+    background-color: white; /* Set the background color of the diagonal line */
+    transform-origin: top left;
+    transform: skewY(-3deg);
+    z-index: 2; /* Ensure the diagonal line appears above the content */
+  }
