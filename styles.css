@@ -1,9 +1,19 @@
 
  
+
+ .navbar{
+  font-family: "Roboto", sans-serif;
+ }
+
  .img-logo{
   width:100px;
  }
  
+ .px-5 {
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
+ }
+
  /* Styling for the hero section */
 
 .h1{
@@ -46,4 +56,10 @@
     transform-origin: top left;
     transform: skewY(-3deg);
     z-index: 2; /* Ensure the diagonal line appears above the content */
+  }
+
+/* Footer */
+  .footer{
+ background-color: #161345;
+ color:white; 
   }
