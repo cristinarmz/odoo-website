@@ -63,3 +63,7 @@
  background-color: #161345;
  color:white; 
   }
+
+.bg-dark {
+  background-color: #161345 !important;
+ color:white; }
