@@ -16,8 +16,8 @@
 
 <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="container justify-content-center">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-blue py-3"> 
+        <div class="container">
             <a class="navbar-brand me-3" href="#">
                 <img class="img-logo" src="images/odoo-white.png" alt="Logo">
             </a>
@@ -25,7 +25,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 d-flex justify-content-center">
                     <li class="nav-item">
                         <a class="nav-link me-3" href="#">Home</a>
                     </li>
@@ -48,20 +48,25 @@
                     <a class="nav-link" href="#">Sign in</a>
                 </li>
             </ul>
-            <button class="btn btn-light rounded" type="submit"><i class="fas fa-shopping-bag me-2"></i>Buy now</button>
+            <div class="mb-2 mb-lg-0">&nbsp;</div> 
+            <button class="btn btn-light rounded ms-lg-3"> 
+                <i class="fas fa-shopping-bag me-1"></i> 
+                Buy now
+            </button>
         </div>
     </nav>
+     
     <!-- END OF NAVBAR -->
-    <div class="container">
-        <div class="row">
-            <div class="col-sm">
-                <hr class="my-0 bg-white">
-            </div>
-        </div>
+<section class="bg-blue py-2">
+    <section class="container">
+    <div class="col">
+        <hr class="my-0 bg-white">
     </div>
-    
-    <!-- Hero section with diagonal division -->
-    <section class="hero-section bg-primary">
+</section>
+</section>
+   
+    <!-- Hero section -->
+    <section class="hero-section bg-blue">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 content px-5">
@@ -125,7 +130,7 @@
                 </div>
                 <div class="col-md-6">
                     
-                    <img src="images/img-section2.png" class="img-fluid">
+                    <img src="images/img-section3.png" class="img-fluid">
             
                 </div>
             </div>
@@ -178,65 +183,80 @@
                     </div>
                     <div class="col-md-6">
                         
-                        <img src="images/img-section2.png" class="img-fluid">
+                        <img src="images/img-section4.png" class="img-fluid">
                 
                     </div>
                 </div>
             </div>
         </section>
 
-<!-- Section 5 -->
+<!-- Section 5 CTA-->
 <section class="odoo-section">
-    <div class="container">
+    <div class="container cta">
         <div class="row align-items-center">
             <div class="col-md-6">
                 <h3>Infinite solutions</h3>
                 <p>Intuitive markup, powerful and lightning-fast build tools,
                     everything you need to turn your ideas into incredible products.
                     </p>
-                    <button>Learn more</button>
+                    
             </div>
-            <div class="col-md-6">
-                <button class="btn btn-warning rounded">Tools</button>
-                <h2>We use the latest technologies on the market</h2>
-                <p>Get components and examples, including tons of variables that will help you grow your business.
-                </p>
-                <button>See case studies</button>
-        
+            <div class="col-md-6 d-flex justify-content-center">
+                <button class="btn btn-light rounded px-4">  
+                    Learn more
+                    <span class="ms-2">&#8594;</span> 
+                </button>
             </div>
+            
         </div>
         
     </div>
 </section>
 
+
+
 <!-- FAQs  -->
     <section class="faq-section">
         <div class="container">
-            <h2 class="faq-title">Helpful Answers</h2>
+            <h2 class="faq-title text-center">Helpful Answers</h2>
+            <p class="text-center">Start building fast, beautiful, and modern-looking websites in no time.
+            </p>
             <div class="row">
                 <div class="col-md-6">
                     <div class="accordion" id="faqAccordion1">
                         <div class="accordion-item">
                             <h3 class="accordion-header" id="headingOne1">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1">
-                                    Question 1
+                                    Which license do I need?
                                 </button>
                             </h3>
                             <div id="collapseOne1" class="accordion-collapse collapse show" aria-labelledby="headingOne1" data-bs-parent="#faqAccordion1">
                                 <div class="accordion-body">
-                                    Answer 1
+                                    This would be answer 1
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h3 class="accordion-header" id="headingTwo1">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo1" aria-expanded="false" aria-controls="collapseTwo1">
-                                    Question 2
+                                    How do I get access to my database?
                                 </button>
                             </h3>
                             <div id="collapseTwo1" class="accordion-collapse collapse" aria-labelledby="headingTwo1" data-bs-parent="#faqAccordion1">
                                 <div class="accordion-body">
-                                    Answer 2
+                                    This would be answer 2
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="headingTwo1">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo1" aria-expanded="false" aria-controls="collapseTwo1">
+                                    How do I see previous orders?
+                                </button>
+                            </h3>
+                            <div id="collapseTwo1" class="accordion-collapse collapse" aria-labelledby="headingTwo1" data-bs-parent="#faqAccordion1">
+                                <div class="accordion-body">
+                                    This would be answer 3
                                 </div>
                             </div>
                         </div>
@@ -247,24 +267,36 @@
                         <div class="accordion-item">
                             <h3 class="accordion-header" id="headingOne2">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne2" aria-expanded="true" aria-controls="collapseOne2">
-                                    Question 3
+                                    Which license do I need?
                                 </button>
                             </h3>
                             <div id="collapseOne2" class="accordion-collapse collapse show" aria-labelledby="headingOne2" data-bs-parent="#faqAccordion2">
                                 <div class="accordion-body">
-                                    Answer 3
+                                    This would be answer 4
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h3 class="accordion-header" id="headingTwo2">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
-                                    Question 4
+                                    How do I get access to my database?
                                 </button>
                             </h3>
                             <div id="collapseTwo2" class="accordion-collapse collapse" aria-labelledby="headingTwo2" data-bs-parent="#faqAccordion2">
                                 <div class="accordion-body">
-                                    Answer 4
+                                    This would be answer 5
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="headingTwo2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
+                                    How do I see previous orders?
+                                </button>
+                            </h3>
+                            <div id="collapseTwo2" class="accordion-collapse collapse" aria-labelledby="headingTwo2" data-bs-parent="#faqAccordion2">
+                                <div class="accordion-body">
+                                    This would be answer 6
                                 </div>
                             </div>
                         </div>
@@ -274,10 +306,40 @@
         </div>
     </section>
 
+    <!-- Section 6 -->
+    <section class="odoo-section">
+        <div class="container text-center">
+            <div class="row align-items-center">
+                <div class="col-md-12">
+                    <p>I want to start a new project</p>
+                    <div class="row justify-content-center">
+                        <div class="col-md-auto">
+                           <button class="btn btn-primary">
+                            Button <i class="fas fa-arrow-right"></i> 
+                        </div>
+                        <div class="col-md-auto">
+                            <a href="#" class="btn btn-link text-primary link-button"> 
+                             Link Button
+                            </a>
+                         </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+    </section>
+    
+    
+    
+    
+    
+
     <!-- Testimonials  -->
     <section class="odoo-section">
         <div class="container">
-            <h2>Testimonials</h2>
+            <button class="btn btn-primary rounded"> Awards</button>
+            <h2>Awards for design, creativity and innovation on the internet</h2>
             <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -316,7 +378,73 @@
             </div>
         </div>
     </section>
-    
+
+<!-- Testimonials 2 -->
+    <section class="odoo-section">
+    <div class="container">
+        <h2>Testimonials</h2>
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="testimonial-box">
+                                <img src="logo1.png" alt="Company Logo 1" class="img-fluid logo">
+                                <div class="rating">
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                </div>
+                                <p class="testimonial-text">Placeholder testimonial text goes here.</p>
+                                <p class="num-reviews">Number of reviews: 100</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="testimonial-box">
+                                <img src="logo2.png" alt="Company Logo 2" class="img-fluid logo">
+                                <div class="rating">
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9734;</span>
+                                </div>
+                                <p class="testimonial-text">Another placeholder testimonial text.</p>
+                                <p class="num-reviews">Number of reviews: 80</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="testimonial-box">
+                                <img src="logo3.png" alt="Company Logo 3" class="img-fluid logo">
+                                <div class="rating">
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9734;</span>
+                                </div>
+                                <p class="testimonial-text">Yet another placeholder testimonial text.</p>
+                                <p class="num-reviews">Number of reviews: 120</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more carousel items here -->
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</section>
+
 
     <!-- Section  -->
     <section class="odoo-section">

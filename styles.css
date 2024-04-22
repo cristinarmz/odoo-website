@@ -2,6 +2,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+.container {
+  padding-left: 30px;/* Add more padding to the right */
+}
+
 .img-logo {
   width: 100px;
 }
@@ -54,6 +58,13 @@
   z-index: 2; /* Ensure the diagonal line appears above the content */
 }
 
+.cta{
+  background-color: #161345;
+  color: white;
+  border-radius:0 100px 0 100px ;
+  padding: 100px;
+}
+
 /* Footer */
 .footer {
   background-color: #161345;
@@ -64,3 +75,16 @@
   background-color: #161345 !important;
   color: white;
 }
+
+hr{
+
+  color:white !important;
+}
+
+.bg-blue{
+  background-color: #3399ff;
+}
+
+.link-button {
+  text-decoration: none;}
+
