@@ -137,3 +137,8 @@ p{
   background-color: #66cc99;
   border:none;
 }
+
+.bg-light{
+  background-color: #faf6ff !important;
+}
+ 
