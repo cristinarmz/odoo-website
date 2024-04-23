@@ -1,6 +1,6 @@
 .navbar {
   font-family: "Montserrat", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .container {
@@ -17,10 +17,17 @@
 }
 
 /* Styling for the hero section */
-.h1 {
+h1 {
   font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-style: normal;
+  font-weight: 600 !important;
+}
+
+h2 {
+  color: #1b2b5a
+}
+
+h3 {
+  color: #1b2b5a
 }
 
 .hero-section {
@@ -36,7 +43,6 @@
 /* Styling for the content */
 .content {
   font-family: "Montserrat", sans-serif;
-  font-weight: 600;
   text-align: left;
   z-index: 1; /* Ensure content appears above the diagonal divider */
   padding-right: 30px;
@@ -44,6 +50,10 @@
 
 .left-columns{
   padding-right:200px;
+}
+
+.col-md-6{
+  padding: 50px
 }
 
 /* Styling for the sections below the hero section */
@@ -96,3 +106,34 @@ hr{
 .link-button {
   text-decoration: none;}
 
+  .star-yellow {
+    color: #fcc81d;
+}
+
+.logo{
+  width:150px;
+}
+
+.border-purple {
+  border-color: #7d6c9c; 
+}
+
+.testimonial-box{
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+}
+
+p{
+  color: #757f93;
+  line-height: 2;
+}
+
+.text-green {
+  color: #66cc99;
+ 
+}
+.btn-success{
+  background-color: #66cc99;
+  border:none;
+}
